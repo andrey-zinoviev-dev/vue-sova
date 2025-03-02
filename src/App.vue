@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import Welcome from './components/Welcome.vue';
-
+import StartPage from './components/StartPage.vue';
 // import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <Welcome></Welcome>
+  <RouterView></RouterView>
+  <!-- <Welcome></Welcome> -->
   
 </template>
 
